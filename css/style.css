@@ -40,12 +40,18 @@ body::after {
 .myBtn {
   border: 0;
   background-color: var(--gem-tier-4);
+  color: #fff;
 }
 
 .myBtn:hover {
   border: 0;
   background-color: var(--gem-tier-4);
   opacity: 0.8;
+  color: #fff;
+}
+
+.myBtn:active {
+  background-color: var(--gem-tier-4);
 }
 
 .title-Section {
