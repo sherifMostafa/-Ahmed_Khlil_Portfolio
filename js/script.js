@@ -10,13 +10,14 @@ window.onscroll = function() {
   } 
 }
 document.querySelector('.navbar-toggler').onclick = function() {
-  if(!navbar.classList.contains('bg-light')) {
+  if(!navbar.classList.contains('open')) {
           navbar.classList.add('bg-light');
           navbar.classList.add('open');
   }
   else {
-        navbar.classList.remove('bg-light');
-        navbar.classList.remove('open');
+    if(this.scrollY > 50)
+    navbar.classList.add('bg-light')
+    navbar.classList.remove('open');
   }
 }
 
