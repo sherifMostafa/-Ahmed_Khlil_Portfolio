@@ -183,7 +183,7 @@ header {
 .skills-bar .progress-line span {
   position: absolute;
   display: inline-block;
-  width: 60%;
+  width: 80%;
   height: 100%;
   background-color: #9700d5;
   border-radius: 1em;
@@ -192,16 +192,16 @@ header {
   width: 90%;
 }
 .skills-bar .progress-line.css span {
-  width: 75%;
+  width: 99%;
 }
 .skills-bar .progress-line.javascript span {
-  width: 85%;
+  width: 90%;
 }
 .skills-bar .progress-line.jquey span {
-  width: 65%;
+  width: 85%;
 }
 .skills-bar .progress-line.bootstrap span {
-  width: 80%;
+  width: 90%;
 }
 .skills-bar .progress-line span::after {
   content: "";
@@ -230,16 +230,16 @@ header {
   content: "90%";
 }
 .skills-bar .progress-line.css span::before {
-  content: "75%";
+  content: "99%";
 }
 .skills-bar .progress-line.javascript span::before {
-  content: "85%";
+  content: "90%";
 }
 .skills-bar .progress-line.jquery span::before {
-  content: "65%";
+  content: "85%";
 }
 .skills-bar .progress-line.bootstrap span::before {
-  content: "80%";
+  content: "90%";
 }
 /*end of skills*/
 /*start of portfolio */
